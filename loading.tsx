@@ -1,0 +1,3 @@
+export default function Loading() {
+  return <main className="grid min-h-screen place-items-center bg-[#09080c] text-white"><div className="flex flex-col items-center gap-4"><img src="/logo.png" alt="Topaz.xyz" className="h-16 w-16 animate-pulse rounded-full object-cover shadow-[0_0_36px_rgba(168,85,247,.32)]"/><span className="text-sm font-medium tracking-wide">Topaz<span className="text-[#F472B6]">.xyz</span></span><span className="h-1 w-28 overflow-hidden rounded-full bg-[#29212f]"><span className="block h-full w-1/2 animate-pulse rounded-full bg-gradient-to-r from-[#F472B6] to-[#A855F7]"/></span></div></main>;
+}
